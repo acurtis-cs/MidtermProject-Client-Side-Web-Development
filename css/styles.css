@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+}
+
+
+/* Very top bar */
+.topBar{
+	height: 42px;
+	background-color: black;
+	color: white;
+    font-family: OpenSansRegular;
+}
+
+.topLeft{
+	float: left;
+	margin: 8px 0 0 25px;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+
+.topRight{
+	float: right;
+	margin: 13px 25px 0 0;
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+
+
+
