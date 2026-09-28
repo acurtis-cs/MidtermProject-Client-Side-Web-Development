@@ -1,11 +1,14 @@
+
+/* Perventing worping whin minmize  */
 body{
 	margin: 0;
+	min-width: 1200px;
 }
 
 
 /* Very top bar */
 .topBar{
-	height: 42px;
+	height: 45px;
 	background-color: black;
 	color: white;
     font-family: OpenSansRegular;
@@ -14,15 +17,234 @@ body{
 .topLeft{
 	float: left;
 	margin: 8px 0 0 25px;
-	font-size: 22px;
+	font-size: 25px;
 	letter-spacing: 2px;
 }
 
 .topRight{
 	float: right;
-	margin: 13px 25px 0 0;
-	font-size: 11px;
+	margin: 17px 25px 0 0;
+	font-size: 12px;
 	letter-spacing: 2px;
+}
+
+/* Gray bar below top bar */
+
+.grayBar{
+	height: 55px;
+	background-color: rgb(218, 217, 217);
+}
+
+.programmingLab{
+	float: left;
+	margin: 2px 0 0 25px;
+	font-size: 34px;
+	color: green;
+	font-family: OpenSansRegular;
+}
+
+.programmingLab sup{
+	font-size: 14px;
+}
+
+.mylab{
+	float: right;
+	margin: 15px 25px 0 0;
+	font-family: OpenSansBold;
+}
+
+.mylab img{
+	float: left;
+	width: 20px;
+	margin-right: 8px;
+}
+
+.mylab p{
+	float: left;
+	margin: 3px 0 0 0;
+	font-size: 13px;
+	color: rgb(17, 17, 17);
+}
+
+
+
+/* Main guy/laptop section */
+
+.main{
+	height: 550px;
+	background-image: url("../images/guy.jpg");
+	background-size: 125%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	font-family: OpenSansRegular;
+	color: white;
+}
+
+/* ALL LEFT SIDE of main section BELOW */
+
+.mainLeft{
+	position: relative;
+	width: 70%;
+	height: 100%;
+}
+
+/* Breakthrough div */
+
+.break{
+	position: absolute;
+	top: -20px;
+	left: 25px;
+}
+
+.breakImg{
+	width: 570px;
+}
+
+.break p{
+	margin: -141px 0 0 0;
+	font-size: 28px;
+}
+
+/* Chart div */
+
+.chart{
+	position: absolute;
+	top: 235px;
+	left: 25px;
+	width: 500px;
+}
+
+.chart img{
+	float: left;
+	width: 38px;
+	margin: 10px 20px 0 0;
+}
+
+.chart p{
+	margin: 0 0 0 48px;
+	padding-left: 11px;
+	border-left: 1px solid white;
+	font-size: 14px;
+	line-height: 21px;
+	width: 460px;
+	word-spacing: 1px;
+	font-family: OpenSansSemibold;
+}
+
+.chart span{
+	color: lightgreen;
+	font-family: OpenSansBold;
+}
+
+/* admin div */
+
+.adminBox{
+	position: absolute;
+	left: 25px;
+	bottom: 28px;
+	width: 175px;
+	height: 130px;
+	background-color: rgb(18, 78, 46);
+	padding: 15px;
+}
+
+/* Student div */
+
+.studentBox{
+	position: absolute;
+	left: 260px;
+	bottom: 28px;
+	width: 175px;
+	height: 130px;
+	background-color: rgb(31, 138, 83);
+	padding: 15px;
+}
+/* admin  & student words styles  */
+.adminBox h3,
+.studentBox h3{
+	margin: 0 0 8px 0;
+	font-size: 17.5px;
+	
+}
+
+.adminBox p,
+.studentBox p{
+	margin: 8px 0;
+	font-size: 14px;
+}
+
+/* ALL RIGHT SIDE of main section BELOW */
+
+.mainRight{
+	position: absolute;
+	top: 0;
+	right: 26;
+	width: 308px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .56);
+	color: white;
+	padding: 25px;
+	box-sizing: border-box;
+	font-family: OpenSansSemibold;
+}
+
+.sign input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 12px;
+	padding-left: 10px;
+	font-size: 14px;
+	box-sizing: border-box;
+	font-family: OpenSansBold;
+
+}
+
+/* FONT style in main Right*/
+
+.sign h2, 
+.register h2{
+	margin: 0 0 5px 0;
+	font-size: 22px;
+}
+
+.sign p,
+.register p{
+	margin: 0 0 15px 0;
+	font-size: 13px;
+	line-height: 20px;
+	word-spacing: 1px;
+}
+
+
+/* Buttons */
+
+.signButton,
+.registerButton{
+	width: 100%;
+	height: 46px;
+	background-color: rgb(31, 138, 83);
+	color: white;
+	border: none;
+	font-size: 14px;
+	font-family: OpenSansBold;
+	margin-bottom: 12px;
+	/* need to fix my text and images placement */
+	text-align: left;
+	padding-left: 70px;
+}
+
+.signButton img,
+.registerButton img{
+	width: 30px;
+	vertical-align: middle;
+	margin-right: 12px;
+}
+
+/* Register extra */
+
+.register{
+	margin-top: 16px;
 }
 
 
