@@ -249,3 +249,128 @@ body{
 
 
 
+/* ALL OF MID SECTION WITH left right portions BELOW*/
+
+
+.mid{
+	height: 450px;
+	background-color: white;
+	position: relative;
+	font-family: OpenSansRegular;
+	color: darkslategray
+}
+
+/* mid left div */
+.midLeft{
+	float: left;
+	width: 48%;
+	padding: 35px 0 0 30px;
+	box-sizing: border-box;
+}
+.midLeft h2{
+	margin: 0 0 18px 0;
+	font-size: 35px;
+	line-height: 38px;
+	color: darkslategray
+}
+
+.midLeft p{
+	font-size: 15px;
+	line-height: 21px;
+	font-family: OpenSansSemibold;
+}
+
+.midLeft span{
+	color: rgb(21, 142, 218);
+	font-family: OpenSansBold;
+}
+
+/* mid right div */
+.midRight{
+	float: right;
+	width: 48%;
+	padding: 35px 30px 0 0;
+	box-sizing: border-box;
+}
+
+.midRight img{
+	width: 100%;
+}
+
+.midRight p{
+	font-size: 13px;
+	line-height: 16px;
+	word-spacing: 1px;
+}
+
+.midRight span{
+	color: rgb(21, 142, 218);
+}
+/* My attempt at the box and arrow */
+.external{
+	border: 1px solid rgb(21, 142, 218);
+	font-size: 7px;
+	position: relative;
+	left: 2px;
+	bottom:3px;
+
+}
+
+
+/*ALL OF FOOTER SECTION with top and bottom poritons BELOW*/
+
+footer{
+	background-color: rgb(28, 44, 44);
+	color: white;
+	font-family: OpenSansRegular;
+	padding: 35px 25px 15px 25px;
+}
+
+.footerTop{
+	height: 180px;
+}
+
+.footerColumn{
+	float: left;
+	width: 20%;
+}
+.space{
+	margin-top: 20px;
+}
+
+.footerColumn h3{
+	margin: 0 0 8px 0;
+	font-size: 14px;
+	color: darkgray;
+}
+
+.footerColumn p{
+	margin: 5px 0;
+	font-size: 11px;
+}
+
+.footerBottom{
+	border-top: 1px solid #666666;
+	margin-top: 30px;
+	padding-top: 5px;
+}
+
+.footerBottom p{
+	margin: 0;
+	font-size: 10px;
+	color: #aaaaaa;
+}
+
+.footerBottom span{
+	color: white
+}
+
+.external2{
+	border: 1px solid white;
+	font-size: 7px;
+	position: relative;
+	left: 2px;
+	bottom:3px;
+	margin-right: 4px;
+
+}
