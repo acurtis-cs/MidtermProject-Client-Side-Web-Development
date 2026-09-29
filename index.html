@@ -13,171 +13,183 @@
 		<!-- Keeping the top bars in own section -->
 		<section>
 			<div class="topBar">
-				<p class="topLeft">PEARSON</p>
-				<p class="topRight">ALWAYS LEARNING</p>
+				<div class="pageWidth">
+					<p class="topLeft">PEARSON</p>
+					<p class="topRight">ALWAYS LEARNING</p>
+				</div>
 			</div>
 			
 			<div class="grayBar">
-				<p class="programmingLab">MyProgrammingLab<sup>&trade;</sup></p>
+				<div class="pageWidth">
 			
+					<p class="programmingLab">MyProgrammingLab<sup>&trade;</sup></p>
 
-				<div class="mylab">
-					<img src="images/house.png" alt="house">
-					<p>MYLAB &amp; MASTERING HOME</p>
+					<div class="mylab">
+						<img src="images/house.png" alt="house">
+						<p>MYLAB &amp; MASTERING HOME</p>
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Guy and Laptop full section code split left right -->
 		<section class="main">
-			<div class="mainLeft">
-				<div class="break">
-					<img class="breakImg" src="images/break.png" alt="Breakthrough">
-					<p>To improving results</p>
+			<!--Creating two classes within one div group to assist with screen sizing-->
+			<div class="pageWidth mainContent">
+				<div class="mainLeft">
+					<div class="break">
+						<img class="breakImg" src="images/break.png" alt="Breakthrough">
+						<p>To improving results</p>
+					</div>
+			
+					<div class="chart">
+						<img src="images/chart.png" alt="Chart">
+						<p>
+							Our goal is to help every student succeed.
+							We're working with ed- ucators and institutions to improve
+							results for students every- where.
+							<span>Learn more &gt;</span>
+						</p>
+					</div>
+
+					<div class="adminBox">
+						<h3>EDUCATORS &amp;<br>ADMINISTRATORS &gt;</h3>
+						<p>Results</p>
+						<p>Features</p>
+						<p>Training &amp; Support</p>
+					</div>
+
+					<div class="studentBox">
+						<h3>STUDENTS &gt;</h3>
+						<p>Get Registered</p>
+						<p>Support</p>
+						<p>More...</p>
+					</div>
 				</div>
-		
-				<div class="chart">
-					<img src="images/chart.png" alt="Chart">
-					<p>
-						Our goal is to help every student succeed.
-						We're working with ed- ucators and institutions to improve
-						results for students every- where.
-						<span>Learn more &gt;</span>
-					</p>
-				</div>
+				<div class="mainRight">
+					<div class="sign">
+						<h2>Sign In</h2>
+						<p>
+							Already registered? Sign in with<br>
+							your Pearson account.
+						</p>
 
-				<div class="adminBox">
-					<h3>EDUCATORS &amp;<br>ADMINISTRATORS &gt;</h3>
-					<p>Results</p>
-					<p>Features</p>
-					<p>Training &amp; Support</p>
-				</div>
+						<form>
+							<input type="text" placeholder="username">
 
-				<div class="studentBox">
-					<h3>STUDENTS &gt;</h3>
-					<p>Get Registered</p>
-					<p>Support</p>
-					<p>More...</p>
-				</div>
-			</div>
-			<div class="mainRight">
-				<div class="sign">
-					<h2>Sign In</h2>
-					<p>
-						Already registered? Sign in with<br>
-						your Pearson account.
-					</p>
+							<input type="password" placeholder="password">
 
-					<form>
-						<input type="text" placeholder="username">
+							<button type="button" class="signButton">
+								<img src="images/head.png" alt="Sign In">
+								SIGN IN
+							</button>
+						</form>
+					</div>
+					<div class="register">
 
-						<input type="password" placeholder="password">
+						<h2>Register</h2>
 
-						<button type="button" class="signButton">
-							<img src="images/head.png" alt="Sign In">
-							SIGN IN
+						<p>Need access? Start here!</p>
+
+						<button type="button" class="registerButton">
+							<img src="images/pen.png" alt="Student">
+							STUDENT
 						</button>
-					</form>
+
+						<button type="button" class="registerButton">
+							<img src="images/pen.png" alt="Educator">
+							EDUCATOR
+						</button>
+					</div>
+
 				</div>
-				<div class="register">
-
-					<h2>Register</h2>
-
-					<p>Need access? Start here!</p>
-
-					<button type="button" class="registerButton">
-						<img src="images/pen.png" alt="Student">
-						STUDENT
-					</button>
-
-					<button type="button" class="registerButton">
-						<img src="images/pen.png" alt="Educator">
-						EDUCATOR
-					</button>
-				</div>
-
 			</div>
 		</section>
 		<section class="mid">
-			<div class="midLeft">
-				<h2>Engage students with immersive<br>
-				content, tools, and experiences</h2>
-				<p>
-					MyLab &amp; Mastering is the world's leading collection of online homework, tutori- 
-					al, and assessment products designed with a single purpose in mind: to im- 
-					prove the results of all higher education students, one student at a time.
-				</p>
-				<p>
-					With input from more than 11 million student users annually, MyLab &amp; Master- 
-					ing	creates online learning experiences that are truly personalized and contin- 
-					uously adaptive. MyLab &amp; Mastering reacts to how students are actually per-
-					forming, offering data-driven guidance that helps them better absorb course
-					material and understand difficult concepts.
-				</p>
-				<p><span>See how MyProgrammingLab delivers measurable results &gt;</span></p>
-			</div>
+			<div class="pageWidth">
+				<div class="midLeft">
+					<h2>Engage students with immersive<br>
+					content, tools, and experiences</h2>
+					<p>
+						MyLab &amp; Mastering is the world's leading collection of online homework, tutori- 
+						al, and assessment products designed with a single purpose in mind: to im- 
+						prove the results of all higher education students, one student at a time.
+					</p>
+					<p>
+						With input from more than 11 million student users annually, MyLab &amp; Master- 
+						ing	creates online learning experiences that are truly personalized and contin- 
+						uously adaptive. MyLab &amp; Mastering reacts to how students are actually per-
+						forming, offering data-driven guidance that helps them better absorb course
+						material and understand difficult concepts.
+					</p>
+					<p><span>See how MyProgrammingLab delivers measurable results &gt;</span></p>
+				</div>
 
-			<div class="midRight">
-				<img src="images/info.png" alt="Student information">
-				<p>
-					<strong>Truth in Numbers 2.0</strong> In December 2014 we surveyed thousands
-					of college students about their experiences with MyLab &amp; Mastering by Pearson.
-					Here's what they had to say.
-				</p>
-				<p>
-					<strong>Having trouble watching the video?</strong>
-					<!-- attempting to create the box arrow emblem-->
-					<span>View the transcript<span class="external">↗</span></span>
-				</p>
+				<div class="midRight">
+					<img src="images/info.png" alt="Student information">
+					<p>
+						<strong>Truth in Numbers 2.0</strong> In December 2014 we surveyed thousands
+						of college students about their experiences with MyLab &amp; Mastering by Pearson.
+						Here's what they had to say.
+					</p>
+					<p>
+						<strong>Having trouble watching the video?</strong>
+						<!-- attempting to create the box arrow emblem-->
+						<span>View the transcript<span class="external">↗</span></span>
+					</p>
+				</div>
+				<div class="clear"></div>
 			</div>
 		</section>
-	</body>
-	<footer>
-		<div class="footerTop">
-			<div class="footerColumn">
-				<h3>MyProgrammingLab</h3>
-				<p>Sign In</p>
-				<p>Register: Student</p>
-				<p>Register: Educator</p>
-				<div class="space">
-					<h3>Support</h3>
-					<p>Educator Training &amp; Support</p>
-					<p>Student Support</p>
-					<p>System Requirements</p>
+		<footer>
+			<div class="pageWidth">
+				<div class="footerTop">
+					<div class="footerColumn">
+						<h3>MyProgrammingLab</h3>
+						<p>Sign In</p>
+						<p>Register: Student</p>
+						<p>Register: Educator</p>
+						<div class="space">
+							<h3>Support</h3>
+							<p>Educator Training &amp; Support</p>
+							<p>Student Support</p>
+							<p>System Requirements</p>
+						</div>
+					</div>
+					<div class="footerColumn">
+						<h3>Educators &amp; Administrators</h3>
+						<p>Registration</p>
+						<p>Results</p>
+						<p>Features</p>
+						<p>Titles Available</p>
+						<p>Community</p>
+						<p>Training &amp; Support</p>
+					</div>
+					<div class="footerColumn">
+						<h3>Students</h3>
+						<p>Get Registered</p>
+						<p>Features</p>
+						<p>Support</p>
+						<p>Get Involved</p>
+					</div>
+					<div class="footerColumn">
+						<h3>MyLab &amp; Mastering</h3>
+						<p>Home</p>
+					</div>
+					<div class="footerColumn">
+						<h3>Pearson Higher Education</h3>
+						<p>Visit our website<span class="external2">↗</span></p>
+					</div>
+				</div>
+				<div class="footerBottom">
+					<p>
+						Copyright &copy;2016 <span>Pearson Education<span class="external2">↗</span></span> Inc., All Rights Reserved |
+						<span>Pearson Higher Education<span class="external2">↗</span></span> |
+						<span>Legal Notice<span class="external2">↗</span></span> |
+						<span>Privacy Policy<span class="external2">↗</span></span> |
+						<span>Permissions<span class="external2">↗</span></span>
+					</p>
 				</div>
 			</div>
-			<div class="footerColumn">
-				<h3>Educators &amp; Administrators</h3>
-				<p>Registration</p>
-				<p>Results</p>
-				<p>Features</p>
-				<p>Titles Available</p>
-				<p>Community</p>
-				<p>Training &amp; Support</p>
-			</div>
-			<div class="footerColumn">
-				<h3>Students</h3>
-				<p>Get Registered</p>
-				<p>Features</p>
-				<p>Support</p>
-				<p>Get Involved</p>
-			</div>
-			<div class="footerColumn">
-				<h3>MyLab &amp; Mastering</h3>
-				<p>Home</p>
-			</div>
-			<div class="footerColumn">
-				<h3>Pearson Higher Education</h3>
-				<p>Visit our website<span class="external2">↗</span></span></p>
-			</div>
-		</div>
-		<div class="footerBottom">
-			<p>
-				Copyright &copy;2016 <span>Pearson Education<span class="external2">↗</span></span> Inc., All Rights Reserved |
-				<span>Pearson Higher Education<span class="external2">↗</span></span> |
-				<span>Legal Notice<span class="external2">↗</span></span> |
-				<span>Privacy Policy<span class="external2">↗</span></span> |
-				<span>Permissions<span class="external2">↗</span></span>
-			</p>
-		</div>
-	</footer>	
+		</footer>
+	</body>
 </html>
