@@ -21,14 +21,14 @@ body{
 
 .topLeft{
 	float: left;
-	margin: 8px 0 0 25px;
+	margin: 8px 0 0 0px;
 	font-size: 25px;
 	letter-spacing: 2px;
 }
 
 .topRight{
 	float: right;
-	margin: 17px 25px 0 0;
+	margin: 17px 0px 0 0;
 	font-size: 12px;
 	letter-spacing: 2px;
 }
@@ -42,7 +42,7 @@ body{
 
 .programmingLab{
 	float: left;
-	margin: 2px 0 0 25px;
+	margin: 2px 0 0 0px;
 	font-size: 34px;
 	color: green;
 	font-family: OpenSansRegular;
@@ -54,7 +54,7 @@ body{
 
 .mylab{
 	float: right;
-	margin: 15px 25px 0 0;
+	margin: 15px 0px 0 0;
 	font-family: OpenSansBold;
 }
 
@@ -103,7 +103,7 @@ body{
 .break{
 	position: absolute;
 	top: -10px;
-	left: 25px;
+	left: 0px;
 }
 
 .breakImg{
@@ -112,7 +112,7 @@ body{
 
 .break p{
 	margin: -141px 0 0 0;
-	font-size: 25px;
+	font-size: 26.5px;
 }
 
 /* Chart div */
@@ -120,7 +120,7 @@ body{
 .chart{
 	position: absolute;
 	top: 235px;
-	left: 25px;
+	left: 0px;
 	width: 500px;
 }
 
@@ -134,10 +134,10 @@ body{
 	margin: 0 0 0 48px;
 	padding-left: 11px;
 	border-left: 1px solid white;
-	font-size: 14px;
+	font-size: 14.5px;
 	line-height: 21px;
-	width: 460px;
-	word-spacing: 1px;
+	width: 480px;
+	word-spacing: 2px;
 	font-family: OpenSansSemibold;
 }
 
@@ -150,9 +150,9 @@ body{
 
 .adminBox{
 	position: absolute;
-	left: 25px;
+	left: 0px;
 	bottom: 28px;
-	width: 150px;
+	width: 170px;
 	height: 140px;
 	background-color: rgb(18, 78, 46);
 	padding: 15px;
@@ -164,7 +164,7 @@ body{
 	position: absolute;
 	left: 220px;
 	bottom: 28px;
-	width: 150px;
+	width: 170px;
 	height: 140px;
 	background-color: rgb(31, 138, 83);
 	padding: 15px;
@@ -173,14 +173,14 @@ body{
 .adminBox h3,
 .studentBox h3{
 	margin: 0 0 8px 0;
-	font-size: 15.5px;
+	font-size: 17.5px;
 	
 }
 
 .adminBox p,
 .studentBox p{
 	margin: 8px 0;
-	font-size: 12px;
+	font-size: 13.5px;
 }
 
 /* ALL RIGHT SIDE of main section BELOW */
@@ -273,7 +273,7 @@ body{
 .midLeft{
 	float: left;
 	width: 48%;
-	padding: 35px 0 0 30px;
+	padding: 35px 0 0 0px;
 	box-sizing: border-box;
 }
 .midLeft h2{
@@ -284,8 +284,8 @@ body{
 }
 
 .midLeft p{
-	font-size: 14px;
-	line-height: 21px;
+	font-size: 15px;
+	line-height: 25px;
 	font-family: OpenSansSemibold;
 }
 
@@ -298,7 +298,7 @@ body{
 .midRight{
 	float: right;
 	width: 48%;
-	padding: 35px 30px 0 0;
+	padding: 35px 0px 0 0;
 	box-sizing: border-box;
 }
 
@@ -308,13 +308,16 @@ body{
 
 .midRight p{
 	font-size: 13px;
-	line-height: 16px;
+	line-height: 17px;
 	word-spacing: 1px;
 }
 
-.midRight span{
+.midRight a{
 	color: rgb(21, 142, 218);
+	text-decoration: none;
 }
+
+
 /* My attempt at the box and arrow */
 .external{
 	border: 1px solid rgb(21, 142, 218);
@@ -337,7 +340,7 @@ footer{
 	background-color: rgb(28, 44, 44);
 	color: white;
 	font-family: OpenSansRegular;
-	padding: 35px 25px 15px 25px;
+	padding: 35px 0px 35px 0px;
 }
 
 .footerTop{
@@ -363,10 +366,21 @@ footer{
 	font-size: 11px;
 }
 
+.footerColumn a{
+	color: white;
+	text-decoration: none;
+}
+
 .footerBottom{
 	border-top: 1px solid #666666;
 	margin-top: 30px;
 	padding-top: 5px;
+
+	/* getting my border longer but keep text in place */
+	margin-left: -25px;
+	margin-right: -25px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .footerBottom p{
@@ -379,6 +393,11 @@ footer{
 	color: white
 }
 
+.footerBottom a{
+	color: white;
+	text-decoration: none;
+}
+
 .external2{
 	border: 1px solid white;
 	font-size: 7px;
@@ -389,6 +408,28 @@ footer{
 
 }
 
+
+/* TOP BOTTOM  */
+#scrollBtn{
+	height: 46px;
+	width: 46px;
+	font-weight: 800;
+	line-height: 46px;
+	text-align: center;
+	font-size: 13px;
+	background: rgb(100, 177, 100);
+	border-radius: 31px;
+	position: fixed;
+	right: 55px;
+	bottom: 20px;
+	z-index: 100;
+	font-family: OpenSansRegular;
+}
+
+#scrollBtn a{
+	color: white;
+	text-decoration: none;
+}
 
 
 
@@ -427,3 +468,5 @@ footer{
 	padding: 10px 20px;
 	font-size: 14px;
 }
+
+

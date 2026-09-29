@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<!-- Keeping the top bars in own section -->
-		<section>
+		<section id="top">
 			<div class="topBar">
 				<div class="pageWidth">
 					<p class="topLeft">PEARSON</p>
@@ -73,12 +73,12 @@
 							your Pearson account.
 						</p>
 
-						<form>
+						<form action="link.html">
 							<input type="text" placeholder="username">
 
 							<input type="password" placeholder="password">
 
-							<button type="button" class="signButton">
+							<button type="submit" class="signButton">
 								<img src="images/head.png" alt="Sign In">
 								SIGN IN
 							</button>
@@ -89,16 +89,18 @@
 						<h2>Register</h2>
 
 						<p>Need access? Start here!</p>
-
-						<button type="button" class="registerButton">
-							<img src="images/pen.png" alt="Student">
-							STUDENT
-						</button>
-
-						<button type="button" class="registerButton">
-							<img src="images/pen.png" alt="Educator">
-							EDUCATOR
-						</button>
+						<form action="link.html">
+							<button type="submit" class="registerButton">
+								<img src="images/pen.png" alt="Student">
+								STUDENT
+							</button>
+						</form>
+						<form action="link.html">
+							<button type="submit" class="registerButton">
+								<img src="images/pen.png" alt="Educator">
+								EDUCATOR
+							</button>
+						</form>
 					</div>
 
 				</div>
@@ -134,7 +136,9 @@
 					<p>
 						<strong>Having trouble watching the video?</strong>
 						<!-- attempting to create the box arrow emblem-->
-						<span>View the transcript<span class="external">↗</span></span>
+						<a href="link.html">
+							View the transcript<span class="external">↗</span>
+						</a>
 					</p>
 				</div>
 				<div class="clear"></div>
@@ -177,19 +181,38 @@
 					</div>
 					<div class="footerColumn">
 						<h3>Pearson Higher Education</h3>
-						<p>Visit our website<span class="external2">↗</span></p>
+						<p>
+							<a href="link.html">
+								Visit our website<span class="external2">↗</span>
+							</a>
+						</p>
 					</div>
 				</div>
 				<div class="footerBottom">
 					<p>
-						Copyright &copy;2016 <span>Pearson Education<span class="external2">↗</span></span> Inc., All Rights Reserved |
-						<span>Pearson Higher Education<span class="external2">↗</span></span> |
-						<span>Legal Notice<span class="external2">↗</span></span> |
-						<span>Privacy Policy<span class="external2">↗</span></span> |
-						<span>Permissions<span class="external2">↗</span></span>
+						Copyright &copy;2016 
+						<a href="link.html">
+							Pearson Education<span class="external2">↗</span>
+						</a> 
+						Inc., All Rights Reserved |
+						<a href="link.html">
+							Pearson Higher Education<span class="external2">↗</span>
+						</a> |
+						<a href="link.html">
+							Legal Notice<span class="external2">↗</span>
+						</a> |
+						<a href="link.html">
+							Privacy Policy<span class="external2">↗</span>
+						</a> |
+						<a href="link.html">
+							Permissions<span class="external2">↗</span>
+						</a>
 					</p>
 				</div>
 			</div>
 		</footer>
+		<div id="scrollBtn">
+			<a href="#top">TOP</a>
+		</div>
 	</body>
 </html>
