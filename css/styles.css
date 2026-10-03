@@ -2,13 +2,15 @@
 /* Perventing worping when minmize  */
 body{
 	margin: 0;
-	min-width: 1200px;
+	min-width: 1300px;
 }
 .pageWidth{
 	width: 1200px;
 	margin: 0 auto;
 	position: relative;
+
 }
+
 
 
 /* Very top bar */
@@ -78,7 +80,8 @@ body{
 .main{
 	height: 550px;
 	background-image: url("../images/guy.jpg");
-	background-size: 120%;
+	background-size: 1540px auto;
+	background-color: black;
 	background-position: center 60%;
 	background-repeat: no-repeat;
 	position: relative;
